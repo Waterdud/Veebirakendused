@@ -1,0 +1,51 @@
+header, footer{
+	color: black; /*teksti värv*/
+	background-color: gray; /*tausta värv*/
+	width: 50%; /*laius*/
+	border: dashed 4pt MediumSeaGreen; /*piir - solid ,dashed, dotted, double*/
+	border-radius: 60px 120px 60px 120px;
+	padding: 1%;
+	
+	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+}
+main section {
+	background-color: green;
+	border: solid 3pt MediumSeaGreen;
+	margin:5px;
+	width: 35%;
+	padding: 1%;
+}
+main section h2{
+	color:purple;
+	font-variant: small-caps;
+}
+nav ul {
+  list-style-type: none; /*Loetelu markerid*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elementid*/
+  background-color: gray;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
